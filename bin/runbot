@@ -1,0 +1,3 @@
+#!/bin/sh
+python src/stats_handler.py > log/work_log.txt 2>&1 &
+python src/bot.py > log/work_log.txt 2>&1 &
